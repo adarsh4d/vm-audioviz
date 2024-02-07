@@ -1,10 +1,6 @@
 <template>
-  <div style="background: white; padding: 12px; border: 1px solid #eaecf0; border-radius: 999px">
+  <div>
     <div class="wrapper">
-      <wwObject v-bind="content.playButton">
-        <wwObject v-if="!isPlaying" v-bind="content.playIcon"></wwObject>
-        <wwObject v-else v-bind="content.pauseIcon"></wwObject>
-      </wwObject>
       <button class="btn" @click="play">
         <svg
           v-if="!isPlaying"

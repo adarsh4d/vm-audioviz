@@ -9,7 +9,8 @@ export default {
       label: {
         en: "Audio source",
       },
-      type: "File",
+      type: "Text",
+      bindable: true,
     },
     waveColor: {
       label: {
@@ -17,6 +18,7 @@ export default {
       },
       type: "Color",
       defaultValue: "#D0D5DD",
+      bindable: true,
     },
     progressColor: {
       label: {
@@ -24,18 +26,7 @@ export default {
       },
       type: "Color",
       defaultValue: "#816DFF",
-    },
-    playButton: {
-      hidden: true,
-      defaultValue: { isWwObject: true, type: "ww-button" },
-    },
-    playIcon: {
-      hidden: true,
-      defaultValue: { isWwObject: true, type: "ww-icon", content: { icon: "fas fa-play" } },
-    },
-    pauseIcon: {
-      hidden: true,
-      defaultValue: { isWwObject: true, type: "ww-icon", content: { icon: "fas fa-pause" } },
+      bindable: true,
     },
   },
 }
