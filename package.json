@@ -1,0 +1,14 @@
+{
+  "name": "vm-audioviz",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "weweb build",
+    "serve": "weweb serve"
+  },
+  "devDependencies": {
+    "@weweb/cli": "latest"
+  },
+  "dependencies": {
+    "wavesurfer.js": "^7.7.2"
+  }
+}
