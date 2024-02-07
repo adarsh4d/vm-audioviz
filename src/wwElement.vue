@@ -63,6 +63,11 @@ export default {
       isPlaying: false,
     }
   },
+  computed: {
+    src() {
+      return this.content.src
+    },
+  },
   methods: {
     play() {
       this.wavesurfer.playPause()
@@ -79,7 +84,7 @@ export default {
       container: "#vm-audiovizbar",
       waveColor: this.content.waveColor,
       progressColor: this.content.progressColor,
-      url: this.content.src,
+      url: this.src,
       height: 40,
       cursorColor: "transparent",
       barWidth: 4,

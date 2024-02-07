@@ -7,14 +7,14 @@ export default {
   properties: {
     src: {
       label: {
-        en: "Audio source",
+        en: "Audio Source",
       },
       type: "Text",
       bindable: true,
     },
     waveColor: {
       label: {
-        en: "Wave color",
+        en: "Wave Color",
       },
       type: "Color",
       defaultValue: "#D0D5DD",
@@ -22,7 +22,7 @@ export default {
     },
     progressColor: {
       label: {
-        en: "Progress color",
+        en: "Progress Color",
       },
       type: "Color",
       defaultValue: "#816DFF",
