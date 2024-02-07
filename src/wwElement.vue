@@ -84,7 +84,7 @@ export default {
       container: "#vm-audiovizbar",
       waveColor: this.content.waveColor,
       progressColor: this.content.progressColor,
-      url: this.src,
+      url: "https://api.corporatesynergysolutions.com/vault/9TYO-QIQ/XcNHfPvzdtg3O5jx3urqlSzC4qE/zPYMDw../Podcast+Intro+v2.mp3",
       height: 40,
       cursorColor: "transparent",
       barWidth: 4,
