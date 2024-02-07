@@ -68,6 +68,11 @@ export default {
       return this.content.src
     },
   },
+  watch: {
+    src() {
+      this.wavesurfer.load(this.src)
+    },
+  },
   methods: {
     play() {
       this.wavesurfer.playPause()
